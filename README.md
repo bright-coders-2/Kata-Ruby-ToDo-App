@@ -42,7 +42,10 @@ Num | Feature | Notes
   - Utilizar SandiMeter para analizar el código y utilizar el resultado para hacer mejoras
   - Presentación correcta en las versiones más recientes de los principales navegadores: Edge, Chrome, Safari y Firefox
   - [Configuración de un servidor de integración continua como Travis CI o Circle CI](https://circleci.com/features/ruby/)
-  
+
+## Inspiración
+En la carpeta [img](/img) hay algunes ejemplos de interfaz que te pueden servir de inspiración para el diseño de la UI de tu App
+
   ## Tecnologías
 - Ruby on Rails en el backend
 - PostgreSQL como base de datos principal
