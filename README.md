@@ -18,7 +18,7 @@ Yo should develop a TODO App that includes the following features:
 
 Num | Feature | Notes
 ----- | ---- | ---- 
-1 | Users should login to the App | Devise/Omniauth  
+1 | Users should login to the App | [Clearance](https://github.com/thoughtbot/clearance) ó Devise/Omniauth  
 2 | Users can create, read, update and delete (CRUD) lists of TODOs |
 3 | Users cand CRUD taks on a list |
 4 | Users can export their lists with their tasks to CSV and PDF files. |
