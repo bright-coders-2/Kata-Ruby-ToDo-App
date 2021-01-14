@@ -20,11 +20,16 @@ Num | Feature | Notes
 ----- | ---- | ---- 
 1 | Users should login to the App | [Clearance](https://github.com/thoughtbot/clearance) ó Devise/Omniauth  
 2 | Users can create, read, update and delete (CRUD) lists of TODOs |
-3 | Users cand CRUD taks on a list |
+3 | Users can CRUD taks on a list |
 4 | Users can export their lists with their tasks to CSV and PDF files. |
-5 | Users should receive weekly email including pending tasks | Using emails and BackgroundJobs with Sidekiq and Redis
-6 | Users can update your profile: name, email, description and photo | Photo must be uploaded, you could use ActiveStorage for this task
-7 | The app must include unit tests with Rspec and integration with Capybara |
+5 | Users can update their profile: name, email, description and photo | Photo must be uploaded, you could use ActiveStorage for this task
+7 | The app must include unit tests with Rspec |
+
+Bonus
+Num | Feature | Notes
+----- | ---- | ---- 
+1 | Users should receive weekly email including pending tasks | Using emails and BackgroundJobs with Sidekiq and Redis
+2 | The app must include integration tests with Capybara | 
 
 ## Requerimientos no-funcionales
 - Rendimiento y escalabilidad
@@ -38,7 +43,7 @@ Num | Feature | Notes
 - Calidad
   - Utilizar estilo de código definido por la comunidad (apoyarse en Rubocop)
   - Pruebas unitarias
-  - Puntuación en Rubycritic: por lo menos 95 en la carpeta de la App y por lo menos 65 en la carpeta de pruebas
+  - Puntuación en Rubycritic: por lo menos 90 en la carpeta de la App y por lo menos 65 en la carpeta de pruebas
   - Utilizar SandiMeter para analizar el código y utilizar el resultado para hacer mejoras
   - Presentación correcta en las versiones más recientes de los principales navegadores: Edge, Chrome, Safari y Firefox
   - [Configuración de un servidor de integración continua como Travis CI o Circle CI](https://circleci.com/features/ruby/)
@@ -50,21 +55,16 @@ En la carpeta [img](/img) hay algunes ejemplos de interfaz que te pueden servir 
 - Ruby on Rails en el backend
 - PostgreSQL como base de datos principal
 - CSS: libertad para utilizar cuaquier framework o librería, preferentemente SASS
-  - Por ejemplo puede sutilizar Bootsrap y junto con [bootstrap_form](https://github.com/bootstrap-ruby/bootstrap_form) para tus formularios
+  - Por ejemplo puede utilizar Bootsrap junto con [bootstrap_form](https://github.com/bootstrap-ruby/bootstrap_form) para tus formularios
 - Javascript: libertad para utilizar cualquier framework o librería, preferentemente sin jQuery
 - Framework para pruebas [Rspec](https://rspec.info/) ó [Minitest](https://github.com/seattlerb/minitest)
+
 ## Entregable
 - Código fuente en Github 
   - Debe incluir README con información sobre como configurar el proyecto
   - Los commits de Git deben ser significativos
-- Demo de la App correndo en heroku
+- Demo de la App correndo en heroku o similar
 - Libertad para utilizar cualquier diseño, imágenes, etc, que considere necesarios y apropiados
-
-## Evaluación / Revisión
-- Cumplimiento de requerimientos funcionales
-- Cumplimiento de requerimientos no funcionales 
-- Participación diaria de todos los integrantes del equipo
-- Entrega dentro del tiempo establecido
 
 ## Setup
 En [este elnace](setup/README.md) se describen los pasos necesarios para ejecutar/probar este proyecto, así como los integrantes de este equipo
