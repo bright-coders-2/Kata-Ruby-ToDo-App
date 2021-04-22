@@ -46,7 +46,7 @@ Num | Feature | Notes
     - Por ejemplo puedes utilizar Bootsrap junto con [bootstrap_form](https://github.com/bootstrap-ruby/bootstrap_form) para tus formularios
 
 ## Inspiración
-En la carpeta [img](/img) hay algunes ejemplos de interfaz que te pueden servir de inspiración para el diseño de la UI de tu App
+En la carpeta [img](/img) hay algunos ejemplos de interfaz que te pueden servir de inspiración para el diseño de la UI de tu App
 
   ## Tecnologías
 - Ruby on Rails en el backend
