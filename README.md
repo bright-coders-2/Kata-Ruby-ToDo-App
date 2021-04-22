@@ -32,21 +32,18 @@ Num | Feature | Notes
 2 | The app must include integration tests with Capybara | 
 
 ## Requerimientos no-funcionales
-- Rendimiento y escalabilidad
-  - [Capáz de escalar de manera horizontal](https://rubygarage.org/blog/ruby-on-rails-is-scalable)
-  - [Aplicar la metodología de los 12 Factores](https://12factor.net/)
-  - Respuesta del servidor menor a los 200ms. 
-- Seguridad
-  - Cubrir las Top 10 vulnerabilidades OWASP (Opcional)
-     - [OWASP Top ten](https://owasp.org/www-project-top-ten/)
-     - [OWSAP Ruby on Rails Cheatsheet](https://cheatsheetseries.owasp.org/cheatsheets/Ruby_on_Rails_Cheat_Sheet.html)
 - Calidad
   - Utilizar estilo de código definido por la comunidad (apoyarse en Rubocop)
   - Pruebas unitarias
   - Puntuación en Rubycritic: por lo menos 90 en la carpeta de la App y por lo menos 65 en la carpeta de pruebas
   - Utilizar SandiMeter para analizar el código y utilizar el resultado para hacer mejoras
   - Presentación correcta en las versiones más recientes de los principales navegadores: Edge, Chrome, Safari y Firefox
+- Deployment
+  - Configuración de un servidor web (heroku o similar) para el deployment automático de actualizaciones de la app
   - [Configuración de un servidor de integración continua como Travis CI o Circle CI](https://circleci.com/features/ruby/)
+- Frontend
+  - CSS: libertad para utilizar cuaquier framework o librería, preferentemente SASS
+    - Por ejemplo puedes utilizar Bootsrap junto con [bootstrap_form](https://github.com/bootstrap-ruby/bootstrap_form) para tus formularios
 
 ## Inspiración
 En la carpeta [img](/img) hay algunes ejemplos de interfaz que te pueden servir de inspiración para el diseño de la UI de tu App
