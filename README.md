@@ -20,7 +20,7 @@ Num | Feature | Notes
 ----- | ---- | ---- 
 1 | Users should login to the App | [Clearance](https://github.com/thoughtbot/clearance) ó Devise/Omniauth  
 2 | Users can create, read, update and delete (CRUD) lists of TODOs |
-3 | Users can CRUD taks on a list |
+3 | Users can CRUD tasks on a list |
 4 | Users can export their lists with their tasks to CSV and PDF files. |
 5 | Users can update their profile: name, email, description and photo | Photo must be uploaded, you could use ActiveStorage for this task
 7 | The app must include unit tests with Rspec |
